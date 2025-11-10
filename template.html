@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конспекты по [ПРЕДМЕТ] | Almanion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- KaTeX для математических формул -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+    <!-- Боковая панель навигации -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2><a href="home.html" style="color: white; text-decoration: none;">📚 Конспекты</a></h2>
+            <button class="close-sidebar" id="closeSidebar">✕</button>
+        </div>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Поиск...">
+        </div>
+
+        <nav class="nav-menu">
+            <div class="nav-section">
+                <h3>[ПРЕДМЕТ] [КЛАСС]</h3>
+                <ul>
+                    <!-- Добавьте свои разделы здесь -->
+                    <li><a href="#section1" class="nav-link active">Раздел 1</a></li>
+                    <li><a href="#section2" class="nav-link">Раздел 2</a></li>
+                    <li><a href="#section3" class="nav-link">Раздел 3</a></li>
+                </ul>
+            </div>
+            
+            <!-- Ссылка на другие предметы -->
+            <div class="nav-section">
+                <h3>Другие предметы</h3>
+                <ul>
+                    <li><a href="index.html">Физика 9 класс</a></li>
+                    <!-- Добавьте ссылки на другие конспекты -->
+                </ul>
+            </div>
+        </nav>
+
+    </aside>
+
+    <!-- Кнопка открытия меню (для мобильных) -->
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>[ПРЕДМЕТ] [КЛАСС]</h1>
+            <p class="subtitle">Конспекты | 2025-2026 | Almanion</p>
+        </header>
+
+        <!-- ПРИМЕР 1: ПРОСТОЕ ОПРЕДЕЛЕНИЕ -->
+        <section class="content-section">
+            <h2 class="part-title">Часть I: [Название части]</h2>
+
+            <article id="section1" class="topic">
+                <h3 class="topic-title">1. [Название темы]</h3>
+                
+                <div class="definition-box">
+                    <strong>Термин</strong> — определение термина с подробным объяснением.
+                </div>
+
+                <div class="remark-box">
+                    💡 Важное замечание или полезный совет для запоминания.
+                </div>
+            </article>
+
+            <!-- ПРИМЕР 2: С ФОРМУЛАМИ -->
+            <article id="section2" class="topic">
+                <h3 class="topic-title">2. [Тема с формулами]</h3>
+                
+                <div class="definition-box">
+                    <strong>Закон/Правило</strong> — описание закона или правила.
+                </div>
+
+                <div class="formula-box">
+                    <p><strong>Основная формула:</strong></p>
+                    \[E = mc^2\]
+                    
+                    <div class="remark-box">
+                        где \(E\) — энергия, \(m\) — масса, \(c\) — скорость света.
+                    </div>
+                </div>
+
+                <!-- Вывод формулы (раскрывающийся) -->
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Показать вывод формулы</button>
+                    <div class="derivation-content">
+                        <p>Шаг 1: Начнём с...</p>
+                        \[\begin{align}
+                        a &= b + c \\
+                        d &= e \cdot f \\
+                        g &= \frac{h}{i}
+                        \end{align}\]
+                        <p>Таким образом, получаем конечную формулу.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ПРИМЕР 3: С ЭКСПЕРИМЕНТОМ/ПРИМЕРОМ -->
+            <article id="section3" class="topic">
+                <h3 class="topic-title">3. [Практическое применение]</h3>
+                
+                <div class="experiment-box">
+                    <h4>🔬 Пример задачи / Эксперимент</h4>
+                    
+                    <div class="exp-section">
+                        <strong>Условие:</strong>
+                        <p>Описание условия задачи или цели эксперимента.</p>
+                    </div>
+                    
+                    <div class="exp-section">
+                        <strong>Решение:</strong>
+                        <p>Подробное решение с объяснением каждого шага.</p>
+                        \[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\]
+                    </div>
+                    
+                    <div class="exp-section">
+                        <strong>Ответ:</strong>
+                        <p>Конечный результат и выводы.</p>
+                    </div>
+                </div>
+
+                <h4 class="subsection-title">Подраздел</h4>
+                
+                <div class="definition-box">
+                    <strong>Дополнительные сведения:</strong>
+                    <ul>
+                        <li>Пункт 1 — описание</li>
+                        <li>Пункт 2 — описание</li>
+                        <li>Пункт 3 — описание</li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <!-- Футер -->
+        <footer class="page-footer">
+            <p>© 2025-2026 Almanion | Конспекты по [ПРЕДМЕТ]</p>
+            <p>Создано с ❤️ для эффективного обучения</p>
+        </footer>
+    </main>
+
+    <!-- Кнопка "Наверх" -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

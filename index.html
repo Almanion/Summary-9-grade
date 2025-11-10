@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конспекты по Физике 9 класс | Almanion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- KaTeX для математических формул -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+</head>
+<body>
+    <!-- Боковая панель навигации -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2><a href="home.html" style="color: white; text-decoration: none;">📚 Конспекты</a></h2>
+            <button class="close-sidebar" id="closeSidebar">✕</button>
+        </div>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Поиск...">
+        </div>
+
+        <nav class="nav-menu">
+            <div class="nav-section">
+                <h3>Физика 9 класс</h3>
+                <ul>
+                    <li><a href="#intro" class="nav-link active">Введение в механику</a></li>
+                    <li><a href="#kinematics" class="nav-link">Кинематика</a></li>
+                    <li><a href="#coordinates" class="nav-link">Координаты</a></li>
+                    <li><a href="#basic-concepts" class="nav-link">Основные понятия</a></li>
+                    <li><a href="#uniform-motion" class="nav-link">Равномерное движение</a></li>
+                    <li><a href="#accelerated-motion" class="nav-link">Равноускоренное движение</a></li>
+                    <li><a href="#free-fall" class="nav-link">Свободное падение</a></li>
+                    <li><a href="#projectile" class="nav-link">Тело под углом</a></li>
+                    <li><a href="#tangential" class="nav-link">Тангенциальное ускорение</a></li>
+                    <li><a href="#circular" class="nav-link">Движение по окружности</a></li>
+                    <li><a href="#relative" class="nav-link">Относительность движения</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Другие предметы</h3>
+                <ul>
+                    <li><a href="index.html" style="color: var(--accent-color); font-weight: 600;">Физика 9 класс</a></li>
+                    <li><a href="math.html">Алгебра 9 класс</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </aside>
+
+    <!-- Кнопка открытия меню (для мобильных) -->
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <!-- Основной контент -->
+    <main class="main-content">
+        <header class="page-header">
+            <h1>Physics 9 grade</h1>
+            <p class="subtitle">Almanion | 2025 — 2026</p>
+        </header>
+
+        <!-- Часть 1: Механика -->
+        <section class="content-section">
+            <h2 class="part-title">Часть I: Механика</h2>
+
+            <!-- Введение в механику -->
+            <article id="intro" class="topic">
+                <h3 class="topic-title">1. Введение в механику</h3>
+                
+                <div class="definition-box">
+                    <strong>Механика</strong> — наука об общих закономерностях движения тел.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Механическое движение</strong> — перемещение тел в пространстве относительно других тел с течением времени.
+                </div>
+
+                <div class="remark-box">
+                    Описать движение тела — значит определить его положение на прямой движения в любой момент времени.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Механика делится на три раздела:</strong>
+                    <ol>
+                        <li><em>Кинематика</em> — описывает движение тела, не объясняя почему движение происходит.</li>
+                        <li><em>Статика</em> — отвечает на вопрос почему тело покоится.</li>
+                        <li><em>Динамика</em> — отвечает на вопрос почему тело приходит в движение.</li>
+                    </ol>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Механическое движение бывает 3 видов:</strong>
+                    <ol>
+                        <li><em>Поступательное</em> — механическое движение системы точек, при котором отрезок, соединяющий любые две точки в теле, остаётся параллельным своему первоначальному положению, если тело не деформируется.</li>
+                        <li><em>Вращательное</em></li>
+                        <li><em>Колебательное</em></li>
+                    </ol>
+                </div>
+            </article>
+
+            <!-- Кинематика -->
+            <article id="kinematics" class="topic">
+                <h3 class="topic-title">2. Кинематика</h3>
+                
+                <h4 class="subsection-title">2.1 Введение в кинематику</h4>
+                
+                <div class="definition-box">
+                    <strong>Кинематика</strong> — раздел механики, изучающий способы описания движений и связь между величинами, характеризующими эти движения.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Материальная точка</strong> — модель тела, размерами которого в данных условиях движение можно пренебречь.
+                </div>
+
+                <div class="remark-box">
+                    Замечание: не существует способа указать положение тела в пустом пространстве, где нет других тел.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Система отсчёта</strong> — система координат, тело отсчёта и прибор для измерения времени.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Тело отсчёта</strong> — тело, которое мы принимаем за неподвижное, относительно которого рассматривается движение других тел.
+                </div>
+            </article>
+
+            <!-- Координаты -->
+            <article id="coordinates" class="topic">
+                <h3 class="topic-title">2.2 Координаты</h3>
+                
+                <div class="definition-box">
+                    <strong>Система координат</strong> — способ определения положения точки или тела с помощью чисел и других символов.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Координаты точки на прямой</strong> — число, модуль которого равен расстоянию до начала отсчёта, а знак указывает, с какой стороны от начала отсчёта находится данная точка.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Координата</strong> — расстояние от начала отсчёта, взятое с определённым знаком.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Координатные линии</strong> — окружности с центром в полюсе и лучи, выходящие из полюса.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Декартовая система координат</strong> — способ определения положения точки или тела на плоскости с помощью двух чисел: абсциссы \(x\) и ординаты \(y\). Основана на двух взаимно перпендикулярных координатных осях, пересекающихся в начале отсчёта.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Полярная система координат</strong> — это способ задания положения точки на плоскости при помощи радиус-вектора \(r\) и угла \(\rho\):
+                    
+                    <div class="formula-box">
+                        \[x = r\cos\rho,\quad y = r\sin\rho,\quad r^2 = x^2 + y^2\]
+                    </div>
+                </div>
+            </article>
+
+            <!-- Основные понятия кинематики -->
+            <article id="basic-concepts" class="topic">
+                <h3 class="topic-title">2.3 Основные понятия кинематики</h3>
+                
+                <div class="definition-box">
+                    <strong>Физическая величина</strong> — физическое свойство материального объекта, физического явления или процесса, которое может быть охарактеризовано количественно.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Скаляр</strong> — величина, каждое значение которой может быть выражено одним числом.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Вектор</strong> — направленный отрезок прямой.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Проекцией вектора \(\vec{AB}\) на ось OX</strong> является число, равное величине отрезка \(A_1B_1\), где \(A_1\) и \(B_1\) — это проекции точек \(A\) и \(B\) на ось OX.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Радиус-вектор</strong> — вектор, начало которого совпадает с началом системы координат, а конец — с данной точкой.
+                    <div class="remark-box">
+                        Радиус-вектор характеризует положение тела в пространстве.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Перемещение</strong> — вектор, соединяющий начальное положение тела с его последним положением.
+                    <div class="remark-box">
+                        Перемещение характеризует движение тела.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Траектория</strong> — линия, вдоль которой происходило движение тела.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Путь</strong> — скалярная физическая величина, численно равная длине траектории.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Способы задания движения:</strong>
+                    <ul>
+                        <li><em>Координатный способ:</em> положение точки в пространстве определяется тремя координатами изменение которых определяет закон движения точки.</li>
+                        <li><em>Векторный способ:</em> положение точки определяется её радиус-вектором. <strong>Годограф</strong> -- кривая, которую описывает конец какого-либо вектора.</li>
+                        <li><em>Естественный способ:</em> называется траектория точки, закон её движения по этой траектории, начало и направление отсчёта дуговой координаты.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <!-- Равномерное движение -->
+            <article id="uniform-motion" class="topic">
+                <h3 class="topic-title">2.4 Равномерное движение</h3>
+                
+                <div class="definition-box">
+                    <strong>Равномерное прямолинейное движение</strong> — движение, при котором траектория есть прямая линия и точка за любые равные промежутки времени проходит равные расстояния.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Скорость равномерного движения</strong> — векторная физическая величина, равная отношению изменения координаты тела (точки) \(\Delta x\) к промежутку времени \(\Delta t\), за который это изменение произошло.
+                    
+                    <div class="remark-box">
+                        Скорость показывает, как быстро движется тело, то есть как быстро с течением времени меняется его положение в пространстве по отношению к другим телам.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    При равномерном движении:
+                    
+                    <div class="formula-box">
+                        \[v_x=\frac{\Delta x}{\Delta t} = \frac{x - x_0}{t - t_0},\quad x(t) = x_0 + v_x(t - t_0)\]
+                    </div>
+                    
+                    <div class="remark-box">
+                        Проекция скорости при равномерном движении на ось \(x\) равна отношению изменения координаты ко времени, за которое это изменение произошло.
+                    </div>
+                    
+                    <div class="remark-box">
+                        Координата тела (точки) в момент времени t равна сумме начальной координаты тела и произведения проекции скорости тела на ось \(x\) на время, в течение которого происходило движение.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    О графике зависимости проекции скорости на ось OX ко времени:
+                    <ul>
+                        <li>Если проекция скорости больше 0 — это означает, что тело двигается по направлению оси \(x\).</li>
+                        <li>Если проекция скорости меньше 0 — это означает, что тело двигается против направления оси \(x\).</li>
+                        <li>Площадь под графиком скорости, без учёта знака, — путь; а с учётом знака — перемещение.</li>
+                    </ul>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Средняя скорость</strong> — векторная физическая величина, равная отношению вектора перемещения к промежутку времени, за которое это перемещение произошло.
+                    
+                    <div class="remark-box">
+                        Средняя скорость характеризует быстроту, с которой совершалось перемещение в среднем.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Средняя путевая скорость</strong> — скалярная физическая величина, равная отношению всего пути ко всему времени движения.
+                    
+                    <div class="remark-box">
+                        Средняя путевая скорость показывает какой путь проходило тело за единицу времени в среднем.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Неравномерное движение</strong> — движение, при котором скорость тела изменяется как по направлению, так и по величине.
+                </div>
+            </article>
+
+            <!-- Равноускоренное движение -->
+            <article id="accelerated-motion" class="topic">
+                <h3 class="topic-title">2.5 Равноускоренное движение</h3>
+                
+                <div class="definition-box">
+                    <strong>Равноускоренное движение</strong> — механическое движение, при котором тело движется по прямой линии и за любые равные промежутки времени скорость тела изменяется на одинаковую величину.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Мгновенная скорость</strong> — векторная физическая величина, равная пределу отношения перемещения материальной точки к промежутку времени, за которое оно совершено, при стремлении этого промежутка к нулю.
+                    
+                    <div class="remark-box">
+                        Мгновенная скорость в каждой точке траектории направлена по касательной к траектории.
+                    </div>
+                    
+                    <div class="remark-box">
+                        Скорость характеризует скорость изменения радиус-вектора, то есть показывает как он изменялся за единицу времени.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Среднее ускорение</strong> — векторная физическая величина, равная отношению изменения скорости к промежутку времени, за которое изменение произошло.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Мгновенное ускорение</strong> — векторная физическая величина, равная пределу отношения изменения вектора скорости к промежутку времени, за которое изменение произошло, при стремлении этого промежутка к нулю.
+                    
+                    <div class="remark-box">
+                        Мгновенное ускорение показывает быстроту изменения скорости.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Равноускоренное прямолинейное движение</strong> — прямолинейное движение с постоянным ускорением.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Основная задача кинематики:</strong> по известной зависимости ускорения от времени, координаты и скорости найти закон движения тела.
+                </div>
+
+                <div class="definition-box">
+                    Закон движения тела при равноускоренном прямолинейном движении:
+                    
+                    <div class="formula-box">
+                        \[x(t) = x_0 + v_{0x}t + \frac{a_x t^2}{2}\]
+                        
+                        Здесь \(x\) — текущее положение тела, \(x_0\) — начальное положение, \(v_{0x}\) — проекция начальной скорости на ось \(x\), \(a_x\) — проекция ускорения на ось \(x\), а \(t\) — время.
+                    </div>
+                    
+                    <div class="remark-box">
+                        Координата тела (точки) в момент времени t при прямолинейном равноускоренном движении равна сумме начальной координаты тела, произведения проекции начальной скорости на ось \(x\) и времени и половины произведения проекции ускорения на ось \(x\) и квадрата времени.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    Уравнение проекции перемещения на ось \(x\):
+                    
+                    <div class="formula-box">
+                        \[S_x = \frac{v_x^2 - v_{0x}^2}{2a_x}\]
+                    </div>
+                    
+                    <div class="remark-box">
+                        Проекция перемещения на ось \(x\) равна отношению разности квадратов проекций скорости в данный момент и начальной скорости на ось \(x\) к удвоенной проекции ускорения на ось \(x\).
+                    </div>
+                    
+                    Вывод формулы:
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Показать вывод формулы</button>
+                        <div class="derivation-content">
+                            \[\begin{align}
+                            S_x &= v_{0x}t + \frac{a_xt^2}{2} \\
+                            S_x &= \Delta x = x - x_0 \\
+                            a_x &= \frac{v_x - v_{0x}}{t} \\
+                            S_x &= v_{0x}t + \frac{(v_x - v_{0x})t^2}{2t} = \frac{2v_{0x}t + v_xt - v_{0x}t}{2} = \frac{v_{0x}t + v_xt}{2} = \frac{v_{0x} + v_x}{2}t \\
+                            S_x &= \frac{v_{0x} + v_x}{2}t \\
+                            t &= \frac{v_x - v_{0x}}{a_x} \\
+                            S_x &= \frac{(v_{0x} + v_x)(v_x - v_{0x})}{2a_x} = \frac{v_x^2 - v_{0x}^2}{2a_x}
+                            \end{align}\]
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Свободное падение -->
+            <article id="free-fall" class="topic">
+                <h3 class="topic-title">2.6 Свободное падение</h3>
+                
+                <div class="definition-box">
+                    <strong>Свободное падение</strong> — движение тела под действием силы тяжести при отсутствии силы сопротивления воздуха и действия других тел, кроме Земли.
+                </div>
+
+                <div class="experiment-box">
+                    <h4>🔬 Опыт Галилея</h4>
+                    
+                    <div class="exp-section">
+                        <strong>Наблюдения:</strong>
+                        <p>Галилей обнаружил, что шары одинакового диаметра, изготовленные из дерева, золота, слоновой кости, движутся по желобу с одинаковыми ускорениями \(a=\frac{2s}{t^2}\). Итак, ускорения не зависят от массы шаров.</p>
+                    </div>
+                    
+                    <div class="exp-section">
+                        <strong>Вывод:</strong>
+                        <p>Галилей доказал, что в отсутствие сопротивления воздуха время падения не зависит от массы тела — тела разных масс падают с одинаковым ускорением.</p>
+                    </div>
+                </div>
+
+                <div class="experiment-box">
+                    <h4>🔬 Опыт Ньютона</h4>
+                    
+                    <div class="exp-section">
+                        <strong>Ход эксперимента:</strong>
+                        <p>В стеклянную трубку помещают предметы разной массы и формы: дробинки, кусочки пробки, пушинки и т.д.</p>
+                        <p>Если теперь трубку перевернуть, дробинка падает быстрее, за ней кусочки пробки, а пушинка — последней.</p>
+                        <p>Но если выкачать воздух из трубки и создании вакуума оба предмета опускаются на дно одновременно.</p>
+                    </div>
+                    
+                    <div class="exp-section">
+                        <strong>Наблюдения:</strong>
+                        <p>Движение пушинки задерживалось сопротивлением воздуха, которое в меньшей степени сказывалось на движении, например, пробки.</p>
+                        <p>Когда же на эти тела действует только притяжение Земли, то все они падают с одинаковым ускорением.</p>
+                    </div>
+                    
+                    <div class="exp-section">
+                        <strong>Вывод:</strong>
+                        <p>Земля сообщает всем без исключения телам одно и то же ускорение. Если сопротивление воздуха отсутствует, то вблизи поверхности Земли ускорение падающего тела постоянно.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Тело, брошенное под углом -->
+            <article id="projectile" class="topic">
+                <h3 class="topic-title">2.7 Кинематика тела, брошенного под углом к горизонту</h3>
+                
+                <h4 class="subsection-title">2.7.1 Траектория</h4>
+                
+                <p>Так как тело движется равноускоренно:</p>
+                
+                <div class="formula-box">
+                    \[\vec{a} = \vec{g} = \vec{\text{const}}\]
+                    \[\vec{r}(t) = \vec{r_0} + \vec{v_0}t + \frac{\vec{g}t^2}{2}\]
+                    \[\vec{v}(t) = \vec{v_0} + \vec{g}t\]
+                </div>
+
+                <p>Распишем формулы проекций скорости и уравнения координат:</p>
+                
+                <div class="formula-box">
+                    \[\begin{align*}
+                    &Ox: \quad x = v_0\cos\alpha \cdot t \\
+                    &Oy: \quad y = h + v_0\sin\alpha \cdot t - \frac{gt^2}{2} \\
+                    &Ox: \quad v_x = v_0\cos\alpha \\
+                    &Oy: \quad v_y = v_0\sin\alpha - gt
+                    \end{align*}\]
+                </div>
+
+                <p>Найдём уравнение траектории тела. Для этого из первого уравнения выразим время, а затем подставим его во второе:</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        t &= \frac{x}{v_0\cos\alpha} \\
+                        y &= h + v_0\sin\alpha \cdot \frac{x}{v_0\cos\alpha} - \frac{g}{2}\left(\frac{x}{v_0\cos\alpha}\right)^2 \\
+                        &= h + x\tan\alpha - \frac{g}{2v_0^2\cos^2\alpha}x^2
+                        \end{align*}\]
+                    </div>
+                </div>
+
+                <h4 class="subsection-title">2.7.2 Время подъёма и время падения тела</h4>
+                
+                <p>В наивысшей точке вектор скорости \(\vec{v}\) параллелен оси \(X\) и перпендикулярен оси \(Y\). Следовательно, проекция скорости \(\vec{v}\) на ось \(Y\) равна нулю (\(v_y=0\)), найдём время подъёма \(\tau_1\):</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        v_y(\tau_1) &= v_0\sin\alpha - g\tau_1 = 0 \\
+                        \tau_1 &= \frac{v_0\sin\alpha}{g}
+                        \end{align*}\]
+                    </div>
+                </div>
+
+                <p>В момент падения тела \(y=0\), найдём время падения \(\tau_2\):</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        y(\tau_2) &= h + v_0\sin\alpha \cdot \tau_2 - \frac{g}{2}\tau_2^2 = 0 \\
+                        &\frac{g}{2}\tau_2^2 - v_0\sin\alpha \cdot \tau_2 - h = 0 \\
+                        D &= (v_0\sin\alpha)^2 + 2gh \\
+                        \tau_2 &= \frac{v_0\sin\alpha + \sqrt{(v_0\sin\alpha)^2 + 2gh}}{g}
+                        \end{align*}\]
+                    </div>
+                </div>
+
+                <p>При \(h=0\):</p>
+                
+                <div class="formula-box">
+                    \[\begin{align*}
+                    \tau_1 = \frac{v_0\sin\alpha}{g} \\
+                    \tau_2 = \frac{2v_0\sin\alpha}{g}
+                    \end{align*}\]
+                </div>
+
+                <h4 class="subsection-title">2.7.3 Максимальная высота</h4>
+                
+                <p>Максимальную высоту можно определить, подставив время подъёма \(\tau_1\):</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        h_{\max} &= y(\tau_1) = y\left(\frac{v_0\sin\alpha}{g}\right) \\
+                        &= h + v_0\sin\alpha \cdot \frac{v_0\sin\alpha}{g} - \frac{g}{2}\left(\frac{v_0\sin\alpha}{g}\right)^2 \\
+                        &= h + \frac{v_0^2\sin^2\alpha}{g} - \frac{v_0^2\sin^2\alpha}{2g} = h + \frac{v_0^2\sin^2\alpha}{2g}
+                        \end{align*}\]
+                    </div>
+                </div>
+
+                <div class="formula-box">
+                    \[h_{\max} = h + \frac{v_0^2\sin^2\alpha}{2g}\]
+                </div>
+
+                <h4 class="subsection-title">2.7.4 Дальность полёта</h4>
+                
+                <div class="definition-box">
+                    <strong>Дальность полёта</strong> — скалярная физическая величина, численно равная расстоянию по горизонтали, которое преодолело тело.
+                </div>
+
+                <p>Дальность полёта \(l\) можно определить, подставив время падения \(\tau_2\):</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        l &= x(\tau_2) = v_0\cos\alpha \cdot \tau_2 \\
+                        &= v_0\cos\alpha \cdot \frac{v_0\sin\alpha + \sqrt{(v_0\sin\alpha)^2 + 2gh}}{g}
+                        \end{align*}\]
+                    </div>
+                </div>
+
+                <p>При \(h=0\):</p>
+                
+                <div class="derivation-box">
+                    <button class="toggle-derivation">📖 Скрыть вывод</button>
+                    <div class="derivation-content show">
+                        \[\begin{align*}
+                        l &= v_0\cos\alpha \cdot \frac{2v_0\sin\alpha}{g} = \frac{v_0^2 \cdot 2\sin\alpha\cos\alpha}{g} = \frac{v_0^2\sin 2\alpha}{g}
+                        \end{align*}\]
+                    </div>
+                </div>
+            </article>
+
+            <!-- Тангенциальное и нормальное ускорения -->
+            <article id="tangential" class="topic">
+                <h3 class="topic-title">2.8 Тангенциальное и нормальное ускорения</h3>
+                
+                <div class="definition-box">
+                    <strong>Тангенциальное ускорение</strong> — векторная физическая величина, составляющая ускорение, равная пределу отношения тангенциальной составляющей изменения вектора скорости к промежутку времени, за которое это изменение произошло, при стремлении этого промежутка к нулю.
+                    
+                    <div class="remark-box">
+                        Тангенциальное ускорение характеризует быстроту изменения модуля скорости.
+                    </div>
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Скрыть вывод</button>
+                        <div class="derivation-content show">
+                            \[\begin{align*}
+                            \Delta\vec{v} &= \vec{v}_1 - \vec{v}_0 \\
+                            \vec{v}_1 &= \Delta\vec{v} + \vec{v}_0 \\
+                            \Delta\vec{v} &= \Delta\vec{v}_n + \Delta\vec{v}_\tau \\
+                            \vec{v}_0 &\uparrow\uparrow \Delta\vec{v}_\tau \\
+                            \vec{a} = \lim_{\Delta t \to 0}\frac{\Delta\vec{v}}{\Delta t} &= \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_n + \Delta\vec{v}_\tau}{\Delta t} = \\
+                            &= \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_n}{\Delta t} + \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_\tau}{\Delta t} \\
+                            \vec{a}_n &= \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_n}{\Delta t} \\
+                            \vec{a}_\tau &= \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_\tau}{\Delta t}
+                            \end{align*}\]
+                        </div>
+                    </div>
+                    
+                    <p>Если \(\vec{a}_\tau \uparrow\uparrow \vec{v}\), то тело ускоряется.</p>
+                    <p>Если \(\vec{a}_\tau \uparrow\downarrow \vec{v}\), то тело замедляется.</p>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Нормальное ускорение</strong> — векторная физическая величина, составляющая вектор ускорения, равная пределу отношения нормальной составляющей изменения вектора скорости к промежутку времени, за которое это изменение произошло, при стремлении этого промежутка к нулю.
+                    
+                    <div class="remark-box">
+                        Нормальное ускорение характеризует быстроту изменения направления скорости.
+                    </div>
+                    
+                    <p>Чтобы выяснить смысл нормального ускорения, будем рассматривать движение, при котором не меняется модуль скорость, то есть траекторией будет окружность:</p>
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Скрыть вывод</button>
+                        <div class="derivation-content show">
+                            \[\begin{align*}
+                            &\text{Проведём хорду } PQ. \\
+                            &\vec{v_0} \perp OP \\
+                            &\vec{v}(t) \perp OQ \\
+                            &\text{Проведём вектор } \Delta\vec{v}. \\
+                            &\text{Рассмотрим треугольник } POQ \text{ и } PZX: \\
+                            &\angle ZAX = \angle POQ \text{ по лемме об остром угле при взаимно перпендикулярных сторонах} \\
+                            &\frac{PZ}{OP} = \frac{PX}{OQ} \text{ из равнобедренности этих треугольников}. \\
+                            &\text{Значит, } \triangle POQ \sim \triangle PZX. \\
+                            &v = |\vec{v_0}| = |\vec{v}(t)| \Rightarrow \vec{a} = \vec{a}_n \Rightarrow \Delta\vec{v} = \Delta\vec{v_n} \\
+                            &\frac{|\Delta\vec{v}|}{PQ} = \frac{v}{R} \\
+                            &|\Delta\vec{v}| = \frac{v}{R}PQ \\
+                            &|\vec{a_n}| = \lim_{\Delta t \to 0}\frac{|\Delta\vec{v_n}|}{\Delta t} = \lim_{\Delta t \to 0}\frac{|\Delta\vec{v}|}{\Delta t} = \lim_{\Delta t \to 0}\frac{v}{R}\frac{PQ}{\Delta t} = \frac{v}{R}\lim_{\Delta t \to 0}\frac{PQ}{\Delta t} \\
+                            &\text{Тогда при } \Delta t \to 0 \text{ хорда } PQ \to \text{ дуга } PQ \\
+                            &|\vec{a_n}| = \frac{v}{R}\lim_{\Delta t \to 0}\frac{PQ}{\Delta t} = \frac{v}{R}v = \frac{v^2}{R} \\
+                            &|\vec{a_n}| = \frac{v^2}{R} \\
+                            &\beta = \frac{180^\circ - \Delta\theta}{2} \Rightarrow \lim_{\Delta t \to 0}\beta = \lim_{\Delta t \to 0}\frac{180^\circ - \Delta\theta}{2} = 90^\circ
+                            \end{align*}\]
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Движение по окружности -->
+            <article id="circular" class="topic">
+                <h3 class="topic-title">2.9 Кинематика движения тела по окружности</h3>
+                
+                <h4 class="subsection-title">2.9.1 Вступление</h4>
+                
+                <div class="definition-box">
+                    <strong>Абсолютно твёрдое тело</strong> — идеальная модель тела, деформацией в котором, под действием внешних сил, можно пренебречь.
+                    
+                    <div class="remark-box">
+                        В абсолютно твёрдом теле расстояние между двумя точками не меняется.
+                    </div>
+                    
+                    <p>При вращательном движение абсолютно твёрдого тела, все его точки движутся по окружности, центры которых лежат на одной прямой, которая называется <strong>осью вращения</strong>.</p>
+                    
+                    <div class="remark-box">
+                        Ось вращения проходит перпендикулярно плоскости рисунка.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Угол поворота тела</strong> — вектор, модуль которого равен углу, на который повернулось тело, а направление определяется правилом правого винта.
+                    
+                    <div class="definition-box">
+                        <strong>Правило правого винта:</strong> Если правый винт вращать по направлению вращения тела, то поступательное движение винта укажет направление вектора угла поворота.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Радианная мера угла</strong> — отношение длины дуги окружности к радиусу этой окружности.
+                    
+                    <div class="formula-box">
+                        \[\varphi = \frac{s}{r}\]
+                    </div>
+                    
+                    <div class="definition-box">
+                        <strong>1 радиан</strong> — угол, соответствующий дуге, длина которой равна радиусу окружности, которой принадлежит эта дуга.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Средняя угловая скорость</strong> — вектор, равный отношению угла поворота к промежутку времени, за который совершился этот поворот.
+                    
+                    <div class="formula-box">
+                        \[\omega_{\text{ср}} = \frac{\vec{\Delta\varphi}}{\Delta t}\]
+                        \[[\omega] = \left[\frac{\text{рад}}{\text{с}}\right]\]
+                    </div>
+                    
+                    <div class="remark-box">
+                        Угловая скорость и угол поворота — сонаправленные вектора.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Мгновенная угловая скорость</strong> — векторная физическая величина, равная пределу отношения угла поворота к промежутку времени, за который совершился этот поворот, при условии, что этот промежуток стремится к нулю.
+                    
+                    <div class="formula-box">
+                        \[\vec{\omega} = \lim_{\Delta t \to 0}\frac{\vec{\Delta\varphi}}{\Delta t}\]
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Мгновенное угловое ускорение</strong> — векторная физическая величина, равная пределу отношения изменения угловой скорости к промежутку времени, за который это изменение произошло, при условии, что этот промежуток стремится к нулю.
+                    
+                    <div class="formula-box">
+                        \[\beta = \lim_{\Delta t \to 0}\frac{\vec{\Delta\omega}}{\Delta t}\]
+                    </div>
+                    
+                    <div class="remark-box">
+                        При равноускоренном вращении угловая скорость увеличивается, угловая скорость и угловое ускорение сонаправленны.
+                    </div>
+                    
+                    <div class="remark-box">
+                        При равнозамедленном вращении угловая скорость по модулю уменьшается, угловая скорость и угловое ускорение противонаправленны.
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    Если угловое ускорение — постоянная величина (по модулю и направлению), то движение называют <strong>равноускоренным вращением</strong>.
+                </div>
+
+                <div class="definition-box">
+                    Если угловая скорость — постоянная величина (по модулю и направлению), то движение называют <strong>равномерным вращением</strong>.
+                </div>
+
+                <h4 class="subsection-title">2.9.2 Равномерное движение тела по окружности</h4>
+                
+                <div class="definition-box">
+                    <strong>Равномерное вращение точки</strong> — движение точки по окружности с постоянной линейной скоростью.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Период</strong> — скалярная физическая величина, равная отношению промежутку времени вращения к числу оборотов, совершённых за этот промежуток, при равномерном вращении.
+                    
+                    <div class="formula-box">
+                        \[T = \frac{t}{N}\]
+                        \[[T] = [\text{с}]\]
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Период вращения</strong> — время одного полного оборота.
+                </div>
+
+                <div class="definition-box">
+                    <strong>Частота вращения</strong> — скалярная физическая величина, равная отношению числа оборотов к промежутку времени, за который совершались обороты, при равномерном вращении.
+                    
+                    <div class="remark-box">
+                        Частота вращения равняется числу оборотов в единицу времени при равномерном движении.
+                    </div>
+                    
+                    <div class="formula-box">
+                        \[\nu = \frac{N}{t}; \quad [\nu] = [\text{с}^{-1}] = [\text{Гц}]\]
+                        \[T = \frac{1}{\nu}; \quad \nu = \frac{1}{T}\]
+                        \[\omega = \frac{\Delta\varphi}{\Delta t}\]
+                        \[\omega = \frac{2\pi}{T} = 2\pi\nu\]
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Линейная скорость</strong> — отношение пути, пройденного данной точкой к промежутку времени, за который путь был пройден.
+                    
+                    <div class="formula-box">
+                        \[v = \frac{s}{t} = \frac{2\pi R}{T} = \omega R\]
+                        \[\vec{v} = \vec{\omega} \times \vec{R}\]
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    <strong>Векторное произведение вектора \(\vec{a}\) на вектор \(\vec{b}\)</strong> — вектор, модуль которого равен произведению модулей \(|\vec{a}|\) и \(|\vec{b}|\) на синус угла между ними, а направление которого перпендикулярно обоим исходным векторам и определяется правилом правого винта.
+                    
+                    <div class="definition-box">
+                        <strong>Правило правого винта:</strong> Если вращать правый винт от первого вектора ко второму по наименьшему углу, то поступательное движение винта укажет результат векторного произведения этих векторов.
+                    </div>
+                </div>
+            </article>
+
+            <!-- Относительность движения -->
+            <article id="relative" class="topic">
+                <h3 class="topic-title">2.10 Относительность движения. Классическое преобразование Галилея.</h3>
+                
+                <div class="definition-box">
+                    Под <strong>относительностью движения</strong> понимается, что все кинематические характеристики зависят от выбора системы отсчёта.
+                </div>
+
+                <div class="definition-box">
+                    Пусть есть первая неподвижная система отсчёта и вторая, которая подвижна относительно первой. Считаем, что в начальный момент времени тело отсчёта первой и второй системы совпадают. Вторая движется относительно первой со скоростью \(\vec{u}\).
+                    
+                    <p>Пусть есть точка \(A\): в первой системе её положение описывается радиус-вектором \(\vec{r_0}\), а относительно второй системы радиус-вектором \(\vec{r_{0'}}\).</p>
+                    
+                    <p>Тогда \(\vec{OA} = \vec{OO'} + \vec{O'A}\); \(\vec{r_0} = \vec{r_{0'}} + \vec{OO'} = \vec{r_{0'}} + \vec{u}t\). Отсюда вытекает следующая система (<strong>Преобразование Галилея</strong>):</p>
+                    
+                    <div class="formula-box">
+                        \[\begin{cases}
+                        x = x' + u_xt \\
+                        y = y' + u_yt \\
+                        z = z' + u_zt \\
+                        t = t'
+                        \end{cases}\]
+                        
+                        <div class="remark-box">
+                            *В рамках классической механики предполагается, что время во всех системах отсчёта протекает одинаково.
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class="subsection-title">2.10.1 Абсолютная, относительная и переносная скорости</h4>
+                
+                <div class="definition-box">
+                    Пусть точка движется произвольно.
+                    
+                    <p>Проведём начальный радиус-вектор в каждой системе отсчёта и получим, что <em>вектор перемещения точки в неподвижной системе равен геометрической сумме вектора перемещения точки в подвижной системе и вектора перемещения подвижной системы отсчёта относительно неподвижной:</em></p>
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Скрыть вывод</button>
+                        <div class="derivation-content show">
+                            \[\begin{align*}
+                            &\vec{OA} = \vec{r_0}; \quad \vec{O'A} = \vec{r_0'}; \quad \vec{OA'} = \vec{r}(\tau) \\
+                            &\vec{O''A'} = \vec{r'}(\tau) \\
+                            &\vec{AA'} = \vec{r'} + (-\vec{O''A}) \\
+                            &\vec{r_0'} + (-\vec{O'O''}) = \vec{O''A} \\
+                            &\vec{AA'} = \vec{r'} - (\vec{r_0'} - \vec{O'O''}) = (\vec{r} - \vec{r_0'}) + \vec{O'O''} \\
+                            &\vec{r} = \Delta\vec{r'} + \vec{O'O''}
+                            \end{align*}\]
+                            
+                            <div class="formula-box">
+                                \[\Delta\vec{r}_{\text{абсолютное}} = \Delta\vec{r}_{\text{относительное}} + \Delta\vec{r}_{\text{переносное}}\]
+                                
+                                где <strong>\(\Delta\vec{r}_{\text{абс}}\)</strong> -- вектор перемещения точки в неподвижной системе отсчёта;<br>
+                                <strong>\(\Delta\vec{r}_{\text{отн}}\)</strong> -- вектор перемещения точки в подвижной системе отсчёта;<br>
+                                <strong>\(\Delta\vec{r}_{\text{пер}}\)</strong> -- вектор перемещения подвижной системы отсчёта относительно неподвижной системы отсчёта.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    Теперь поделим всё на промежуток времени, в течении которого происходило перемещение, устремим этот промежуток к нулю и получим, что <em>абсолютная скорость точки равна геометрической сумме относительной скорости точки и переносной скорости точки:</em>
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Скрыть вывод</button>
+                        <div class="derivation-content show">
+                            \[\begin{align*}
+                            &\frac{\Delta\vec{r}_{\text{абс}}}{\Delta t} = \frac{\Delta\vec{r}_{\text{отн}}}{\Delta t} + \frac{\Delta\vec{r}_{\text{пер}}}{\Delta t} \\
+                            &\lim_{\Delta t \to 0}\frac{\Delta\vec{r}_{\text{абс}}}{\Delta t} = \lim_{\Delta t \to 0}\frac{\Delta\vec{r}_{\text{отн}}}{\Delta t} + \lim_{\Delta t \to 0}\frac{\Delta\vec{r}_{\text{пер}}}{\Delta t}
+                            \end{align*}\]
+                            
+                            <div class="formula-box">
+                                \[\vec{v}_{\text{абсолютная}} = \vec{v}_{\text{относительная}} + \vec{v}_{\text{переносная}}\]
+                                
+                                где <strong>\(\vec{v}_{\text{абс}}\)</strong> — скорость точки в неподвижной системе отсчёта;<br>
+                                <strong>\(\vec{v}_{\text{отн}}\)</strong> — скорость точки в подвижной системе отсчёта;<br>
+                                <strong>\(\vec{v}_{\text{пер}}\)</strong> — скорость подвижной системы отсчёта относительно неподвижной системы отсчёта.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="definition-box">
+                    Теперь выразим ускорение абсолютное через геометрическую сумму ускорения относительного и ускорения переносного:
+                    
+                    <div class="derivation-box">
+                        <button class="toggle-derivation">📖 Скрыть вывод</button>
+                        <div class="derivation-content show">
+                            \[\begin{align*}
+                            &\vec{v}_{\text{абс}}(t_0) = \vec{v}_{\text{отн}}(t_0) + \vec{v}_{\text{пер}}(t_0) \\
+                            &\vec{v}_{\text{абс}}(t) = \vec{v}_{\text{отн}}(t) + \vec{v}_{\text{пер}}(t) \\
+                            &\Delta\vec{v}_{\text{абс}}(t_0) = \Delta\vec{v}_{\text{отн}}(t_0) + \Delta\vec{v}_{\text{пер}}(t_0) \\
+                            &\lim_{\Delta t \to 0}\frac{\Delta\vec{v}_{\text{абс}}}{\Delta t} = \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_{\text{отн}}}{\Delta t} + \lim_{\Delta t \to 0}\frac{\Delta\vec{v}_{\text{пер}}}{\Delta t}
+                            \end{align*}\]
+                            
+                            <div class="formula-box">
+                                \[\vec{a}_{\text{абсолютное}} = \vec{a}_{\text{относительное}} + \vec{a}_{\text{переносное}}\]
+                                
+                                где <strong>\(\vec{a}_{\text{абс}}\)</strong> — ускорение точки в неподвижной системе отсчёта;<br>
+                                <strong>\(\vec{a}_{\text{отн}}\)</strong> — ускорение точки в подвижной системе отсчёта;<br>
+                                <strong>\(\vec{a}_{\text{пер}}\)</strong> — ускорение подвижной системы отсчёта относительно неподвижной системы отсчёта.
+                                
+                                <div class="remark-box">
+                                    *Верно только для поступательного движения.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Футер -->
+        <footer class="page-footer">
+            <p>2025-2026 Almanion | Конспекты по физике 9 класс</p>
+        </footer>
+    </main>
+
+    <!-- Кнопка "Наверх" -->
+    <button class="scroll-to-top" id="scrollToTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
